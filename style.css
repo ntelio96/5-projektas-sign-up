@@ -4,26 +4,39 @@ body, body * {
     padding: 0;
     vertical-align: top;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
-body {
     background-color: #00afcc;
 }
-
-main {
+.container {
     display: inline-block;
     width: 800px;
     margin-top: 100px;
     margin-left: calc(50% - 400px);
-    
 }
+
+
+
+.main-title {
+    display: inline-block;
+    width: 100%;
+    font-weight: normal;
+    font-size: 32px;
+}
+.bottom-links {
+    background-color:darkkhaki;
+    display: inline-block;
+
+}
+.bottom-links > .link {}
+
+
+.bottom
 
 .left-column {
     
     float: left;
     width: 40%;
     padding: 40px;
+    margin-top: 20px;
     background-color: #494eac;
 }
 .right-column {
@@ -32,16 +45,8 @@ main {
     padding: 60px;
     float: left;
 }
-.mygtukas {
-    background-color: #36f ;
+
+.close {
     display: inline-block;
-    padding: 15px;  
-    padding-left: 40px;
-    padding-right: 40px;
-    border-radius: 4px;
-    line-height: 20px;
-    font-size: 24px;
-    text-decoration: none;
-    cursor: pointer;
-    color: #ffffff
+    background-color: darkmagenta;
 }
