@@ -13,8 +13,6 @@ body, body * {
     margin-left: calc(50% - 400px);
 }
 
-
-
 .main-title {
     display: inline-block;
     width: 100%;
@@ -29,10 +27,9 @@ body, body * {
 .bottom-links > .link {}
 
 
-.bottom
+.bottom {}
 
 .left-column {
-    
     float: left;
     width: 40%;
     padding: 40px;
