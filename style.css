@@ -19,17 +19,29 @@ main {
     
 }
 
-main > div:first-child {
+.left-column {
     
     float: left;
     width: 40%;
     padding: 40px;
     background-color: #494eac;
 }
-main > div:last-child {
-    
+.right-column {
     width: 60%;
     background-color: #ffffff;
     padding: 60px;
     float: left;
+}
+.mygtukas {
+    background-color: #36f ;
+    display: inline-block;
+    padding: 15px;  
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 4px;
+    line-height: 20px;
+    font-size: 24px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff
 }
