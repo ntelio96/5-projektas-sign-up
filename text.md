@@ -17,5 +17,15 @@ visa ploti ir auksti.]
  .container > .left-column tada visi container esantys left-column elementai
  bus parinkti
 
+
+ background-sizing:
+ contain: paliks tarpus tarp virsaus
+ cover: padengia visa nustatyta pavirsiu proporcingai (nuotrauka gali netilpt depends on size) nuotrauka matysime maximaliai !!!
+
+ background-repeat: no repeat
+ background-position: center, top + veikia su x ir y asimis. 
+
+
+
  
 
