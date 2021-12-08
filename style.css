@@ -69,19 +69,24 @@ form > .form-row {
     width: 100%;
     margin-bottom: 30px;
 }
+.form > .form-row:last-of-type {
+    margin-bottom: 0;
+}
 
-form > .label {
+form > .form-row > label {
     display: inline-block;
     width: 100%;
     margin-bottom: 5px;
 }
 
-form > input {
+form > .form-row > input {
     display: inline-block;
     width: 100%;
     font-size: 20px;
+    line-height: 40px;
     border-top: none;
     border-left: none;
     border-right: none;
+    border-bottom: 2px line teal;
 
 }
