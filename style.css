@@ -8,16 +8,39 @@ body, body * {
 }
 body {
     background-color: #494eac;
+    position: relative;
+    height: 100vh;  
 }
+
+
+
 .container {
     display: inline-block;
-    width: 800px;
-    margin-top: 100px;
-    margin-left: calc(50% - 400px);
-    position: relative;
+    width: 800px; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
     
 }
+.background-image-div {
+    height: 100%;
+    background-image: url(../img/day1dr1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(1rem);
+
+}
+
+/*.background-image {
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+    filter: blur() 
+}   sitas irgi galimas variantas */
 
 .main-title {
     display: inline-block;
@@ -86,6 +109,7 @@ body {
     display: inline-block;
     width: 100%;
 }
+
 form > .form-row {
     display: inline-block;
     width: 100%;

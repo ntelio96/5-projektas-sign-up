@@ -15,6 +15,10 @@
     color: #fff;
     border: none;
     font-size: 16px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%,
+    rgba(35,74,213,1) 35%, 
+    rgba(6,97,221,1) 100%);
 
 }
 
